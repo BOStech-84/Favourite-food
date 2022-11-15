@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    .list{
+        background-color: aqua;
+        margin: 20px;
+        border: 3px orange inset;
+        padding: 20px;
+        text-align: center;
+
+    }
+    .unlist{
+        background-color: rgb(245, 245, 245);
+        margin: 30px;
+       border: 3px orange outset;
+       padding: 20px;
+       outline: thick double palegreen;
+    }
+    #novel, #film {
+        background-color: rgba(0, 47, 255, 0.596);
+        margin: 0px;
+        padding: 10px;
+        /*
+        text-align: center;
+        */
+    }
+    #world, #parties {
+        background-color: rgb(247, 0, 255);
+        margin: inherit;
+        padding: inherit;
+        text-align: center;
+        outline: thick double palegreen;
+
+    }
+    #film{
+        background-color: rgb(217, 255, 0);
+    }
+    #parties{
+        background-color: rgb(255, 0, 119);
+    }
+</style>
+<body>
+    <ol class="list">
+       <li id="novel">I like reading novel</li>
+       <li id="world">I like exploring the world</li> 
+    </ol>
+    <ul class="unlist">
+        <li id="parties">I dont like going to parties</li>
+        <li id="film">I dont like watching America films</li>
+    </ul>
+</body>
+</html>
